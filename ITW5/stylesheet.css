@@ -1,0 +1,82 @@
+body {
+    background:#7A7D7D;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#title {
+    text-align: center;
+    color:#B7941B;
+    font-size: 300%;
+}
+
+#intro {
+    text-align: center;
+    color: #CFD2D2;
+}
+
+.header {
+    margin: 20px;
+    background-color:#2F3131;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.selection {
+    text-align: center;
+}
+
+.menu {
+    display: inline-block;
+    text-align: left;
+}
+
+a:link, a:visited {
+    color:black;
+}
+
+a:hover {
+    color:#B7941B;
+}
+
+#education {
+    font-size: 200%;
+    color: #B7941B;
+}
+
+#experience {
+    font-size: 200%;
+    color: #B7941B;
+}
+
+#skills {
+    font-size: 200%;
+    color: #B7941B;
+}
+
+#contact {
+    font-size: 200%;
+    color: #B7941B;
+}
+
+.content {
+    background-color: #ebd8d0;
+    margin: 20px;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+    background-color:#2F3131;
+    padding: 25px;
+    border-radius: 10px;
+}
