@@ -107,3 +107,37 @@ footer {
     padding: 25px;
     border-radius: 10px;
 }
+
+#linkedin {
+    display: block;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 10px solid;
+    border-color: red;
+    border-radius: 20%;
+    animation-name: borderchange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;  
+  }
+  
+  #linkedin:hover {
+    animation: rotation 3s infinite linear;
+    filter: invert(100%);
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes borderchange {
+    50%  {border-color: black;}
+    100% {border-color: rgb(208, 228, 27);}
+  }
+  

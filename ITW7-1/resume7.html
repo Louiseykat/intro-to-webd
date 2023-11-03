@@ -16,7 +16,7 @@
 
         <section>
         <aside>
-            <img src="C:\Users\Louise\Desktop\CodeSpace\intro-to-webd\images\profile.jpg" alt="profile picture" style="width:350px;height:350px" id="photo"> 
+            <img src="Images/profile.jpg" alt="profile picture" style="width:350px;height:350px" id="photo"> 
         
         <br>
     <div class="selection">
@@ -75,20 +75,22 @@
 
         <footer>
             <h2 id="contact">Contact details</h2>
-                <p><a href="www.linkedin.com/in/louise-kriek-jeweller" target="_blank">LinkedIn</a></p>
+                <p><a href="www.linkedin.com/in/louise-kriek-jeweller" target="_blank">
+                    <img src="Images/linkedin.jpg" id="linkedin">
+                </a></p>
 
             <br>
 
             <div class="form">
-            <form action="" method="">
+            <form action="https://formsubmit.co/louisekriek90@gmail.com" method="POST">
                 <h2 id="get_in_touch">Get in touch:</h2>
-                <label for="mail">Email:</label>
-                <input type="mail" id="mail" name="user_mail" placeholder="required" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="required" required>
 
                 <br><br>
 
                 <label for="topic">Topic:</label>
-                <select name="topic" id="topic">
+                <select name="topic" id="topic" required>
                     <option value="job_opportunity">Job Opportunity</option>
                     <option value="feedback">Feedback</option>
                     <option value="enquiry">Enquiry</option>
