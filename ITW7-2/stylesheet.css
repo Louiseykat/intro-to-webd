@@ -14,20 +14,19 @@ body {
     color: #CFD2D2;
 }
 
-.header {
+.hero {
+    background: #2F3131 url("https://images.unsplash.com/photo-1521225753516-46438a76f25a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpg");
     margin: 20px;
-    background-color:#2F3131;
-    padding: 25px;
+    padding: 35px;
+    padding-bottom: 50;
     border-radius: 10px;
 }
 
-#photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-radius: 50%;
-}
+.photos {
+    display: grid;
+    place-items: center;
+    border-radius: 20%;
+  }
 
 .selection {
     text-align: center;
@@ -83,10 +82,7 @@ a:hover {
 
 }
 
-/* #button {background-color: aqua;
-        text-align: center;} */
-
-.test {
+.submitbutton {
         margin-left: 15rem;}
        
 
