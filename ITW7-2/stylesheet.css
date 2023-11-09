@@ -25,8 +25,9 @@ body {
 .photos {
     display: grid;
     place-items: center;
-    border-radius: 20%;
   }
+
+img {border-radius: 20%;}
 
 .selection {
     text-align: center;
