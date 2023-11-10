@@ -90,7 +90,7 @@ a:hover {
 }
 
 .submitbutton {
-        margin-left: 15rem;}
+    margin-left: 15rem;}
        
 
 label {width: 100px;
@@ -155,15 +155,12 @@ footer {
 
     h2 {
         font-size: 1.2em;
-
     }
     h3{
         font-size: 1em;
-
     }
     p {
         font-size: 1em;
-
     }
     .heroImage {
         margin: 5px;
@@ -180,22 +177,18 @@ footer {
         padding: 10px;
         border-radius: 10px;
     }
-    
     #education {
         font-size: 1.5em;
         color: #B7941B;
     }
-    
     #experience {
         font-size: 1.5em;
         color: #B7941B;
     }
-    
     #skills {
         font-size: 1.5em;
         color: #B7941B;
     }
-    
     footer {
         margin: 5px;
         padding: 10px;
@@ -207,30 +200,37 @@ footer {
     }
     #linkedin {
         border: 5px solid;
-        width: 15%;
+        width: 10%;
     }
-    
     #get_in_touch {
         font-size: 1.5em;
-        color: #B7941B;
-        text-align: left;
+        text-align: center;
     }
-  }
-    
+    textarea {width: 70%;
+    }
+    .submitbutton {
+    margin-left: 10rem;
+    }   
+}
+
 @media  screen and (max-width: 768px){
-    h1 {
-
+    .content {
+        padding: 15px;
+        border-radius: 10px;
     }
-    h2 {
-
+    #get_in_touch {
+        text-align: center;
     }
-    h3{
-
+    textarea {width: 80%;
     }
-    p {
-        
+    .submitbutton {
+    margin-left: 20rem;
+}
+    #linkedin {
+    border: 5px solid;
+    width: 10%;
     }
-  }
+}
 
 @media  screen and (max-width: 1440px){
     h1 {
