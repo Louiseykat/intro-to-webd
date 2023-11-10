@@ -1,0 +1,195 @@
+body {
+    background:#7A7D7D;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#title {
+    text-align: center;
+    color:#B7941B;
+    font-size: 300%;
+}
+
+#intro {
+    text-align: center;
+    color: #CFD2D2;
+}
+
+.hero {
+    background: #2F3131 url("https://images.unsplash.com/photo-1521225753516-46438a76f25a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D.jpg");
+    margin: 20px;
+    padding: 35px;
+    padding-bottom: 50;
+    border-radius: 20px;
+}
+
+.photos {
+    display: grid;
+    place-items: center;
+  }
+
+img {
+    border-radius: 50%;
+}
+
+.selection {
+    text-align: center;
+}
+
+.menu {
+    display: inline-block;
+    text-align: left;
+}
+
+a:link, a:visited {
+    color:black;
+}
+
+a:hover {
+    color:#B7941B;
+}
+
+#education {
+    font-size: 200%;
+    color: #B7941B;
+}
+
+#experience {
+    font-size: 200%;
+    color: #B7941B;
+}
+
+#skills {
+    font-size: 200%;
+    color: #B7941B;
+}
+
+#contact {
+    font-size: 200%;
+    color: #B7941B;
+}
+
+#get_in_touch {
+    font-size: 200%;
+    color: #B7941B;
+    text-align: left;
+}
+
+.content {
+    background-color: #ebd8d0;
+    margin: 20px;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.form {text-align: left;
+
+}
+
+.submitbutton {
+        margin-left: 15rem;}
+       
+
+label {width: 100px;
+    display: inline-block;
+    text-align: right;
+    color: whitesmoke;
+    }
+
+textarea {vertical-align: top;
+    }
+
+input[type=submit] {color: black;
+    text-align: center;
+    background-color:#B7941B;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 5px;
+   }
+
+footer {
+    text-align: center;
+    margin: 20px;
+    background-color:#2F3131;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#linkedin {
+    display: block;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 10px solid;
+    border-color: red;
+    border-radius: 20%;
+    animation-name: borderchange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;  
+  }
+  
+  #linkedin:hover {
+    animation: rotation 3s infinite linear;
+    filter: invert(100%);
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes borderchange {
+    50%  {border-color: black;}
+    100% {border-color: rgb(208, 228, 27);}
+  }
+  
+  /* @media  screen and (max-width: 425px){
+    h1 {
+
+    }
+    h2 {
+
+    }
+    h3{
+
+    }
+    p {
+
+    }
+  }
+    
+  @media  screen and (max-width: 768px){
+    h1 {
+
+    }
+    h2 {
+
+    }
+    h3{
+
+    }
+    p {
+        
+    }
+  }
+
+  @media  screen and (max-width: 1440px){
+    h1 {
+
+    }
+    h2 {
+
+    }
+    h3{
+
+    }
+    p {
+        
+    }
+  } */
+
+  
